@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.lebastudios.theroundtable</groupId>
-    <artifactId>plugin-template</artifactId>
+    <groupId>org.lebastudios.theroundtableplugins</groupId>
+    <artifactId>template</artifactId>
     <version>3.0.0</version>
-    <name>plugin-template</name>
+    <name>template</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -68,7 +68,7 @@
                 <version>3.2.0</version>
                 <configuration>
                     <outputDirectory>${project.basedir}</outputDirectory>
-                    <finalName>${project.artifactId}</finalName>
+                    <finalName>template</finalName>
                 </configuration>
             </plugin>
         </plugins>
