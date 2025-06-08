@@ -24,7 +24,7 @@ public class PluginMainClass implements IPlugin
     @Override
     public List<Button> getRightButtons()
     {
-        IconButton button = new IconButton("plugin.png");
+        IconButton button = new IconButton("core:plugins.png");
         button.setOnAction(_ -> MainStageController.getInstance().setCentralNode(new MainPaneController()));
         return List.of(button);
     }
