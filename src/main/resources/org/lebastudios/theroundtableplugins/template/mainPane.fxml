@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.HBox?>
 <HBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.lebastudios.theroundtable.plugintemplate.MainPaneController"
+      fx:controller="org.lebastudios.theroundtableplugins.template.MainPaneController"
       alignment="CENTER">
     <Label text="Hello, World!"/>
 </HBox>

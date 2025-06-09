@@ -1,4 +1,4 @@
-package org.lebastudios.theroundtable.plugintemplate;
+package org.lebastudios.theroundtableplugins.template;
 
 import javafx.scene.control.Button;
 import org.lebastudios.theroundtable.MainStageController;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @CompileFxml(
         directories = {
-                "org/lebastudios/theroundtable/plugintemplate"
+                "org/lebastudios/theroundtableplugins/template"
         }
 )
 public class PluginMainClass implements IPlugin

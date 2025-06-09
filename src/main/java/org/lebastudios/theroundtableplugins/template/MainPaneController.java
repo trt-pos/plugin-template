@@ -1,4 +1,4 @@
-package org.lebastudios.theroundtable.plugintemplate;
+package org.lebastudios.theroundtableplugins.template;
 
 import org.lebastudios.theroundtable.controllers.PaneController;
 
