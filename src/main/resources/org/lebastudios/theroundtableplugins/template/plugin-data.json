@@ -1,10 +1,10 @@
 {
-  "pluginName": "Plugin Template",
-  "pluginId": "template",
-  "pluginDescription": "Template of a plugin for The Round Table",
-  "pluginVersion": "3.0.0",
-  "pluginVendor": "Leba Studios - Software Solutions",
-  "pluginVendorUrl": "https://lebastudios.org",
+  "name": "Plugin Template",
+  "id": "template",
+  "description": "Template of a plugin for The Round Table",
+  "version": "3.0.0",
+  "vendor": "Leba Studios - Software Solutions",
+  "vendor-url": "https://lebastudios.org",
   "categories": [
     "general"
   ],
@@ -13,10 +13,10 @@
     "example",
     "plugin"
   ],
-  "pluginDependencies": [
+  "dependencies": [
     {
-      "pluginId": "core",
-      "pluginVersion": "3.0.0"
+      "id": "core",
+      "version": "3.0.0"
     }
   ]
 }
