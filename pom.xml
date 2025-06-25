@@ -11,6 +11,8 @@
     <packaging>jar</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
     </properties>
@@ -21,12 +23,18 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.lebastudios.theroundtable</groupId>
+            <groupId>com.github.trt-pos</groupId>
             <artifactId>core</artifactId>
-            <version>3.0.0</version>
+            <version>f33088d19f</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -53,9 +61,9 @@
                             <version>v0.5.0</version>
                         </path>
                         <path>
-                            <groupId>org.lebastudios.theroundtable</groupId>
-                            <artifactId>desktop-app</artifactId>
-                            <version>3.0.0</version>
+                            <groupId>com.github.trt-pos</groupId>
+                            <artifactId>core</artifactId>
+                            <version>f33088d19f</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
